@@ -19,6 +19,13 @@ namespace ColorSpheres
             this.blue = blue;
             this.alpha = alpha;
         }
+        public Color (int red, int green, int blue)
+        {
+            this.red = red;
+            this.green = green;
+            this.blue = blue;
+            this.alpha = 255;
+        }
 
         public int GetRed(int red)
         {
@@ -32,7 +39,7 @@ namespace ColorSpheres
         {
             return blue;
         }
-        
+
         public int GetGrey(int red, int green, int blue)
         {
             return (red + green + blue) / 3;
