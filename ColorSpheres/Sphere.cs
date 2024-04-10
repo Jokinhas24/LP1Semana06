@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
 using System.Runtime.Intrinsics.X86;
 using System.Threading.Tasks;
@@ -8,20 +9,31 @@ namespace ColorSpheres
 {
     public class Sphere
     {
-        public int color;
-        public int radius;
-        public int thrown_times;
+        public int Color { get; set; }
+        public int Radius { get; set; }
+        public int Times_thrown { get; set; }
 
         public Sphere(int color, int radius)
         {
-            this.color = color;
-            this.radius = radius;
-            thrown_times = 0;
+            Color = color;
+            Radius = radius;
+            Times_thrown = 0;
         }
 
-        static Pop()
+        public void Pop()
         {
-            radius = 0;
+            Radius = 0;
+        }
+        public void Throw()
+        {
+            if (Radius > 0)
+            {
+                Times_thrown += 1;
+            }
+        }
+        public int GetTimesThrown()
+        {
+            return Times_thrown;
         }
     }
 }
