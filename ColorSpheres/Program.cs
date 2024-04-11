@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection.Metadata;
 
 namespace ColorSpheres
 {
@@ -27,7 +28,10 @@ namespace ColorSpheres
             sphere3.Throw();
 
             // Sphere 1
-            Console.WriteLine($"1st Sphere's color is {sphere1.Color}");
+            byte color_1 = sphere1.Color.Red;
+
+            Console.WriteLine($"1st Sphere's color is {sphere1.Color()}");
+            Console.WriteLine($"1st SPhere's Grey level is {sphere1.GetGrey(sphere1.Color())}");
             Console.WriteLine($"1st Sphere's radius is {sphere1.Radius}");
             Console.WriteLine($"1st Sphere was thrown {sphere1.GetTimesThrown()} times");
 
