@@ -25,6 +25,14 @@ namespace ColorSpheres
             sphere3.Throw();
             sphere3.Pop();
             sphere3.Throw();
+
+            // Sphere 1
+            Console.WriteLine($"1st Sphere's color is {sphere1.Color}");
+            Console.WriteLine($"1st Sphere's radius is {sphere1.Radius}");
+            Console.WriteLine($"1st Sphere was thrown {sphere1.GetTimesThrown()} times");
+
+            Console.WriteLine($"2nd Sphere was thrown {sphere2.GetTimesThrown()} times");
+            Console.WriteLine($"3rd Sphere was thrown {sphere3.GetTimesThrown()} times");
         }
     }
 }

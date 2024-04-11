@@ -1,0 +1,15 @@
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\ColorSpheres\bin\Debug\net6.0\ColorSpheres.exe
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\ColorSpheres\bin\Debug\net6.0\ColorSpheres.deps.json
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\ColorSpheres\bin\Debug\net6.0\ColorSpheres.runtimeconfig.json
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\ColorSpheres\bin\Debug\net6.0\ColorSpheres.dll
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\ColorSpheres\bin\Debug\net6.0\ColorSpheres.pdb
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\ColorSpheres\obj\Debug\net6.0\ColorSpheres.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\ColorSpheres\obj\Debug\net6.0\ColorSpheres.AssemblyInfoInputs.cache
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\ColorSpheres\obj\Debug\net6.0\ColorSpheres.AssemblyInfo.cs
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\ColorSpheres\obj\Debug\net6.0\ColorSpheres.csproj.CoreCompileInputs.cache
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\ColorSpheres\obj\Debug\net6.0\ColorSpheres.sourcelink.json
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\ColorSpheres\obj\Debug\net6.0\ColorSpheres.dll
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\ColorSpheres\obj\Debug\net6.0\refint\ColorSpheres.dll
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\ColorSpheres\obj\Debug\net6.0\ColorSpheres.pdb
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\ColorSpheres\obj\Debug\net6.0\ColorSpheres.genruntimeconfig.cache
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\ColorSpheres\obj\Debug\net6.0\ref\ColorSpheres.dll
