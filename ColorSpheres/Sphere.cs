@@ -9,11 +9,11 @@ namespace ColorSpheres
 {
     public class Sphere
     {
-        public int Color { get; set; }
+        public Color Color { get; set; }
         public int Radius { get; set; }
         public int Times_thrown { get; set; }
 
-        public Sphere(int color, int radius)
+        public Sphere(Color color, int radius)
         {
             Color = color;
             Radius = radius;
