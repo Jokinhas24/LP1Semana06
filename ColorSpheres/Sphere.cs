@@ -9,31 +9,31 @@ namespace ColorSpheres
 {
     public class Sphere
     {
-        public Color Color { get; set; }
-        public int Radius { get; set; }
-        public int Times_thrown { get; set; }
+        public Color color;
+        public int radius;
+        public int times_thrown;
 
         public Sphere(Color color, int radius)
         {
-            Color = color;
-            Radius = radius;
-            Times_thrown = 0;
+            this.color = color;
+            this.radius = radius;
+            times_thrown = 0;
         }
 
         public void Pop()
         {
-            Radius = 0;
+            radius = 0;
         }
         public void Throw()
         {
-            if (Radius > 0)
+            if (radius > 0)
             {
-                Times_thrown += 1;
+                times_thrown += 1;
             }
         }
         public int GetTimesThrown()
         {
-            return Times_thrown;
+            return times_thrown;
         }
     }
 }
