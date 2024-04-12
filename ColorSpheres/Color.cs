@@ -29,7 +29,7 @@ namespace ColorSpheres
 
         public byte GetGrey(byte red, byte green, byte blue)
         {
-            return (Red + Green + Blue) / 3;
+            return (byte)((Red + Green + Blue) / 3);
         }
     }
 
