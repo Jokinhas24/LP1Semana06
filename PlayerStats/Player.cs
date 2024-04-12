@@ -8,29 +8,36 @@ namespace PlayerStats
 {
     public class Player
     {
-        private readonly string name;
+        public readonly string Name;
         private float highScore { get; set; }
         private int playedGames { get; set; }
         private int wonGames { get; set; }
-        private readonly float WinRate;
 
-        public void HighScore(float newScore, float highScore)
+        public float HighScore
         {
-            if (newScore > highScore)
+            get => highScore;
+            set
             {
-                highScore = newScore;
+                if (value > highScore)
+                {
+                    highScore = value;
+                }
             }
         }
-        public readonly float WinRate()
+        public float WinRate
         {
-            if (playedGames > 0)
+            get
             {
-                return (float)(playedGames / wonGames);
+                if (wonGames == 0)
+                {
+                    return 0;
+                }
+                else
+                {
+                    return (wonGames/(float)playedGames);
+                }
             }
-            else
-            {
-                return string ("This Player hasn't played any games");
-            }
+            
         }
         public void PlayGame(bool win)
         {
@@ -41,9 +48,9 @@ namespace PlayerStats
             }
 
         }
-        Player(string name)
+        public Player(string name)
         {
-            this.name = name;
+            Name = name;
             this.highScore = 0;
             this.playedGames = 0;
             this.wonGames = 0;

@@ -1,0 +1,15 @@
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\PlayerStats\bin\Debug\net6.0\PlayerStats.exe
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\PlayerStats\bin\Debug\net6.0\PlayerStats.deps.json
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\PlayerStats\bin\Debug\net6.0\PlayerStats.runtimeconfig.json
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\PlayerStats\bin\Debug\net6.0\PlayerStats.dll
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\PlayerStats\bin\Debug\net6.0\PlayerStats.pdb
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\PlayerStats\obj\Debug\net6.0\PlayerStats.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\PlayerStats\obj\Debug\net6.0\PlayerStats.AssemblyInfoInputs.cache
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\PlayerStats\obj\Debug\net6.0\PlayerStats.AssemblyInfo.cs
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\PlayerStats\obj\Debug\net6.0\PlayerStats.csproj.CoreCompileInputs.cache
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\PlayerStats\obj\Debug\net6.0\PlayerStats.sourcelink.json
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\PlayerStats\obj\Debug\net6.0\PlayerStats.dll
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\PlayerStats\obj\Debug\net6.0\refint\PlayerStats.dll
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\PlayerStats\obj\Debug\net6.0\PlayerStats.pdb
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\PlayerStats\obj\Debug\net6.0\PlayerStats.genruntimeconfig.cache
+C:\Users\joaop\OneDrive\Documentos\LP1\LP1Semana06\PlayerStats\obj\Debug\net6.0\ref\PlayerStats.dll
