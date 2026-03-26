@@ -11,7 +11,7 @@ namespace MyGame
         private string name;
         private float health;
         private float shield;
-        //static float numberOfPowerUpsTaken;
+        static float numberOfPowerUpsTaken;
 
         public Enemy(string name)
         {
@@ -36,6 +36,10 @@ namespace MyGame
         public float GetShield()
         {
             return shield;
+        }
+        public float GetNumberPowerUps()
+        {
+            return numberOfPowerUpsTaken;
         }
 
         public string SetName(string newname)
@@ -63,9 +67,30 @@ namespace MyGame
             }
         }
 
-        public void PickupPowerUp()
+        public void PickupPowerUp(PowerUp power, float amount)
         {
-            return;
+            if (power == PowerUp.Health)
+            {
+                if (health + amount < 100)
+                {
+                    health += amount;
+                }
+                else
+                {
+                    health = 100;
+                }
+            }
+            else if(power == PowerUp.Shield)
+            {
+                if (shield + amount < 100)
+                {
+                    shield += amount;
+                }
+                else
+                {
+                    shield = 100;
+                }
+            }
         }
     }
 }
