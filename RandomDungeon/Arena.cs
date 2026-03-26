@@ -34,7 +34,7 @@ namespace RandomDungeon
 
         // Método Para Mostrar Todos os Inimigos Atuais
         // Exemplo: "Arena: Troll, Skeleton, Ogre"
-        public void ShowEnemies()
+        public static void ShowEnemies(Enemy[] enemies)
         {
             // CÓDIGO AQUI
             Console.WriteLine($"Arena: {enemies}");

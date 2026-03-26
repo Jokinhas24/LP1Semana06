@@ -1,5 +1,6 @@
 using System;
 
+
 namespace RandomDungeon
 {
     public class Enemy
@@ -63,6 +64,14 @@ namespace RandomDungeon
         {
             // CÓDIGO AQUI
             return $"{name} ({health}, {attack})";
+        }
+        public static Enemy GenerateRandomEnemy(int seed)
+        {
+            string name = DefaultNames[Random.Next(0, 54)];
+            int health = Random.Next(50, 100);
+            int attack = Random.Next(5, 20);
+            Enemy enemy = new Enemy (name, health, attack);
+            return enemy;
         }
     }
 }
