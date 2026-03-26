@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 
 namespace RandomDungeon
 {
@@ -36,9 +37,10 @@ namespace RandomDungeon
 
             // Mostra a Lista de Inimigos Atualmente na Arena
             // CÓDIGO AQUI
+            Arena.ShowEnemies();
             
             // Repetir Batalha (Enquanto Existe Mais do que 1 Inimigo)
-            while (// CÓDIGO AQUI)
+            while (List<Enemy> enemies > 1)
             {
                 // Obter a Lista Atual de Inimigos
                 List<Enemy> enemies = arena.GetEnemies();
@@ -48,8 +50,13 @@ namespace RandomDungeon
 
                 // Selecionar Aleatoriamente um Defensor
                 // Garantindo que Não Seja o Mesmo que o Atacante
-                int defenderIndex;
                 // CÓDIGO AQUI
+                int defenderIndex = random.Next(attackerIndex, enemies.Count);
+
+                while (defenderIndex == attackerIndex)
+                {
+                    defenderIndex = random.Next(attackerIndex, enemies.Count);
+                }
                 
                 // Obter os Objetos Atacante e Defensor
                 Enemy attacker = enemies[attackerIndex];
