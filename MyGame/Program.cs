@@ -7,11 +7,17 @@ namespace MyGame
     {
         private static void Main(string[] args)
         {
-            //Enemy [] enemies = new Enemy[int.Parse(args[0])];
-            Enemy loki = new Enemy("Loki");
-            loki.SetName("   Grindaalokki   ");
-            //foreach (Enemy in )
-            Console.WriteLine($"Name is {loki.GetName()} and HP is {loki.GetHealth()}");
+            int count = int.Parse(args[0]);
+            Enemy [] enemies = new Enemy[count];
+            for (int i = 0; i < count; i++)
+            {
+                Console.Write($"Enemy {i + 1} name: ");
+                enemies[i] = new Enemy(Console.ReadLine());
+            }
+            foreach (Enemy enemy in enemies)
+            {
+                Console.WriteLine($"Name is {enemy.GetName()} and HP is {enemy.GetHealth()}");
+            }
         }
     }
 }
